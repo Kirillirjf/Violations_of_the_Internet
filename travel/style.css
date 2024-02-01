@@ -1,0 +1,186 @@
+
+
+div#content {
+    width: 100%;
+    border: none;
+
+    margin: auto;
+}   
+
+
+
+header, footer {
+padding: 1em;
+
+color: white;
+
+background-color: #007196;
+
+clear: left;
+
+text-align: center;
+
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+nav a {
+text-decoration: none;
+padding: 1em;
+}
+.please_work{
+    margin-left: -300px;
+}
+
+.logo {
+margin-right: 30px;
+float: left;
+}
+.header {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.flex-sm-fill{
+    /* Фон всего меню */
+    background-color: #66CDAA;
+
+    /* Цвет и рамка каждого пункта меню */
+    color: white;
+    border:solid white;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px
+    #000 inset;
+}
+
+.colses{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.tour {
+    border: solid #007196;
+    }
+    .tour-1 {
+        border: solid #007196;
+        display: flex;
+        }
+
+    /* Для картинок, но только входящих в блок класса tour */
+    .tour img {
+    width: 250px;
+    height: 170px;
+    padding: 5px;
+
+    }
+    /* Для ссылок, но только входящих блок класса tour */
+    .tour a {
+    background-color: #66CDAA;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px
+    #000 inset;
+    color: white;
+    }
+    div.tour a
+    {
+    background-color: #66CDAA;
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+    /* /* Кнопки с эффектом выпуклости */
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px
+    #000 inset;
+    }
+.ros{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+ .country{
+display: flex;
+}
+.cols {
+flex-basis: 0;
+flex-grow: 1;
+max-width: 100%;
+text-align: center;
+margin: 5px;
+}
+.colss {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    text-align: center;
+    }
+
+
+html {
+height: 100%;
+}
+body {
+min-height:100%;
+position: relative;
+padding-bottom: 70px;
+}
+.footer {
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+height: 50px;
+color: white;
+background-color: #007196;
+}
+
+
+
+
+
+
+
+
+
+
+
+img{
+    vertical-align: middle;
+    border-style: none;
+    width: 250px;
+    height: 170px;
+}
+
+.tours{
+    border: solid #007196;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    }
+    .tour img {
+    width: 250px;
+    height: 170px;
+    padding: 5px;
+}
+    .tour p .tour img {
+    margin: 0 10px;
+    }
+
+.btn {
+
+margin-left: auto;
+order:999;
+background-color: #66CDAA;
+box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px
+#000 inset;
+color:white;
+}
+
+.authblock{
+display: block;
+}
